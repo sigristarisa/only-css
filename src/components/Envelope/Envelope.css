@@ -1,0 +1,57 @@
+.envelope {
+  width: 0;
+  height: 0;
+  border-top: 100px white solid;
+  border-left: 200px grey solid;
+  border-right: 200px lightgrey solid;
+  border-bottom: 100px grey solid;
+}
+
+.heart {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: heartbeat 2s linear infinite;
+}
+
+.heart:before {
+  content: " ";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.heart:after {
+  content: " ";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1);
+  }
+  20% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1);
+  }
+  30% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1.4);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1.2);
+  }
+  70% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1.4);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1);
+  }
+}
