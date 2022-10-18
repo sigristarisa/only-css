@@ -1,0 +1,58 @@
+.camera {
+  width: 300px;
+  height: 250px;
+  background-color: #dadada;
+  border-radius: 20%;
+  box-shadow: 0 10px 15px -15px black;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.button {
+  width: 30px;
+  height: 10px;
+  background-color: #007365;
+  position: absolute;
+  top: -10px;
+  left: 50px;
+}
+
+.flash {
+  width: 20px;
+  height: 20px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.lens {
+  width: 150px;
+  height: 150px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px -15px black;
+  display: grid;
+  place-items: center;
+}
+
+.inner-lens {
+  width: 120px;
+  height: 120px;
+  background-color: #007365;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.inner-lens-2 {
+  width: 0;
+  height: 0;
+  border-top: 30px #029583 solid;
+  border-right: 30px #5ebbb4 solid;
+  border-bottom: 30px #8dcfcc solid;
+  border-left: 30px #2caea4 solid;
+  border-radius: 50%;
+}
