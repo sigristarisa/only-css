@@ -1,36 +1,36 @@
 .envelope {
   width: 0;
   height: 0;
-  border-top: 100px white solid;
-  border-left: 200px grey solid;
-  border-right: 200px lightgrey solid;
-  border-bottom: 100px grey solid;
+  border-top: 100px #f0f0f0 solid;
+  border-right: 150px #e1e0e1 solid;
+  border-bottom: 100px #d2d2d2 solid;
+  border-left: 150px #d2d2d2 solid;
 }
 
 .heart {
-  width: 50px;
-  height: 50px;
-  background-color: red;
+  width: 32px;
+  height: 32px;
+  background-color: #fe4044;
   transform: translate(-50%, -50%) rotate(45deg);
   animation: heartbeat 2s linear infinite;
 }
 
 .heart:before {
   content: " ";
-  width: 50px;
-  height: 50px;
+  width: 32px;
+  height: 32px;
   position: absolute;
-  background-color: red;
+  background-color: #fe4044;
   transform: translateY(-50%);
   border-radius: 50%;
 }
 
 .heart:after {
   content: " ";
-  width: 50px;
-  height: 50px;
+  width: 32px;
+  height: 32px;
   position: absolute;
-  background-color: red;
+  background-color: #fe4044;
   transform: translateX(-50%);
   border-radius: 50%;
 }
