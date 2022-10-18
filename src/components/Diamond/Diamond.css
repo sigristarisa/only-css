@@ -1,0 +1,54 @@
+.diamond {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+span:nth-child(1) {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 50px transparent solid;
+  border-left: 50px transparent solid;
+  border-right: 50px #4d8aeb solid;
+  border-bottom: 50px #598de2 solid;
+}
+
+span:nth-child(2) {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-top: 50px #4184ee solid;
+  border-left: 50px #80a8e9 solid;
+  border-right: 50px #3c7de6 solid;
+  border-bottom: 50px #598de2 solid;
+}
+
+span:nth-child(3) {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-top: 50px #4184ee solid;
+  border-left: 50px #80a8e9 solid;
+  border-right: 50px #4d8aeb solid;
+  border-bottom: 50px #598de2 solid;
+}
+
+span:nth-child(4) {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-top: 50px #4184ee solid;
+  border-left: 50px #80a8e9 solid;
+  border-right: 50px #4d8aeb solid;
+  border-bottom: 50px #598de2 solid;
+}
