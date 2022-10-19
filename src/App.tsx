@@ -9,6 +9,7 @@ import Batman from "./components/Batman/Batman";
 import CaptainAmerica from "./components/CaptainAmerica/CaptainAmerica";
 import Gear from "./components/Gear/Gear";
 import GitLogo from "./components/GitLogo/GitLogo";
+import GoogleLogo from "./components/GoogleLogo/GoogleLogo";
 
 const App: React.FC = () => {
   return (
@@ -17,11 +18,12 @@ const App: React.FC = () => {
       <Envelope />
       <Pepsi />
       <Camera />
-      <GitLogo />
+      <GoogleLogo />
       <CoffeeMug />
       <Batman />
       <CaptainAmerica />
       <Gear />
+      <GitLogo />
     </div>
   );
 };
