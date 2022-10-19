@@ -1,0 +1,23 @@
+.coffee-mug {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(53, 25, 10);
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px rgb(33, 16, 6), 0 0 0 30px rgb(240, 162, 46),
+    0 0 0 50px rgb(231, 175, 92), -20px 120px 0 -35px rgb(53, 25, 10),
+    60px 120px 0 -10px rgb(53, 25, 10), 100px 60px 0 -35px rgb(53, 25, 10),
+    -20px 200px 0 -55px rgb(53, 25, 10), -10px 250px 0 -65px rgb(53, 25, 10);
+}
+
+.coffee-mug::before {
+  content: "";
+  width: 50px;
+  height: 70px;
+  background-color: rgb(225, 169, 86);
+  border-radius: 20%;
+  position: absolute;
+  top: -70px;
+  right: -60px;
+  transform: rotate(45deg);
+}
