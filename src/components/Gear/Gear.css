@@ -1,0 +1,33 @@
+.core {
+  width: 180px;
+  height: 180px;
+  background-color: rgb(123, 170, 182);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.teeth {
+  width: 250px;
+  height: 50px;
+  background-color: rgb(123, 170, 182);
+  border-radius: 8px;
+  position: absolute;
+}
+
+.t-left {
+  transform: rotate(60deg);
+}
+
+.t-right {
+  transform: rotate(-60deg);
+}
+
+.hole {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+}

@@ -7,6 +7,7 @@ import Camera from "./components/Camera/Camera";
 import CoffeeMug from "./components/CoffeeMug/CoffeeMug";
 import Batman from "./components/Batman/Batman";
 import CaptainAmerica from "./components/CaptainAmerica/CaptainAmerica";
+import Gear from "./components/Gear/Gear";
 
 const App: React.FC = () => {
   return (
@@ -14,10 +15,11 @@ const App: React.FC = () => {
       <Diamond />
       <Envelope />
       <Pepsi />
-      <CaptainAmerica />
       <Camera />
+      <Gear />
       <CoffeeMug />
       <Batman />
+      <CaptainAmerica />
     </div>
   );
 };
