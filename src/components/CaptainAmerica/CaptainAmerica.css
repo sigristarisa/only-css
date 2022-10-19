@@ -1,0 +1,61 @@
+.shield3 {
+  width: 240px;
+  height: 240px;
+  background-color: #fe4a49;
+  border-radius: 50%;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.shield2 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.shield1 {
+  width: 160px;
+  height: 160px;
+  background-color: #fe4a49;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.center {
+  width: 110px;
+  height: 110px;
+  background-color: #387ada;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.arrow {
+  border-top: 35px solid white;
+  border-right: 48px solid transparent;
+  border-bottom: 48px solid transparent;
+  border-left: 48px solid transparent;
+  position: absolute;
+}
+
+.top {
+  top: 103px;
+  left: 72px;
+}
+
+.left {
+  top: 85px;
+  left: 48px;
+  transform: rotate(70deg);
+}
+
+.right {
+  top: 88px;
+  left: 94px;
+  transform: rotate(-70deg);
+}
