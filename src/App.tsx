@@ -11,6 +11,7 @@ import Gear from "./components/Gear/Gear";
 import GitLogo from "./components/GitLogo/GitLogo";
 import GoogleLogo from "./components/GoogleLogo/GoogleLogo";
 import IGLogo from "./components/IGLogo/IGLogo";
+import Panda from "./components/Panda/Panda";
 
 const App: React.FC = () => {
   return (
@@ -19,13 +20,14 @@ const App: React.FC = () => {
       <Envelope />
       <Pepsi />
       <Camera />
-      <IGLogo />
       <CoffeeMug />
       <Batman />
       <CaptainAmerica />
+      <Panda />
       <Gear />
       <GitLogo />
       <GoogleLogo />
+      <IGLogo />
     </div>
   );
 };
