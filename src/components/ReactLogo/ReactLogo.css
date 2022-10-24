@@ -1,0 +1,31 @@
+.react {
+  width: 300px;
+  height: 300px;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.react-center {
+  width: 50px;
+  height: 50px;
+  background-color: #6bddfb;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.react-oval {
+  width: 300px;
+  height: 80px;
+  border: 3px solid #6bddfb;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.ro-left {
+  transform: rotate(60deg);
+}
+
+.ro-right {
+  transform: rotate(-60deg);
+}

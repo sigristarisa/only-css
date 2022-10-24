@@ -14,6 +14,7 @@ import IGLogo from "./components/IGLogo/IGLogo";
 import Panda from "./components/Panda/Panda";
 import Donut from "./components/Donut/Donut";
 import FigmaLogo from "./components/FigmaLogo/FigmaLogo";
+import ReactLogo from "./components/ReactLogo/ReactLogo";
 
 const App: React.FC = () => {
   return (
@@ -25,13 +26,14 @@ const App: React.FC = () => {
       <CoffeeMug />
       <Batman />
       <CaptainAmerica />
-      <FigmaLogo />
       <Panda />
       <Gear />
+      <ReactLogo />
       <GitLogo />
       <GoogleLogo />
       <IGLogo />
       <Donut />
+      <FigmaLogo />
     </div>
   );
 };
