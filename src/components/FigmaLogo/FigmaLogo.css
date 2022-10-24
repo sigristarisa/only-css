@@ -1,0 +1,46 @@
+.figma {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.figma-circle {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.fc-1 {
+  background-color: #f2582f;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.fc-2 {
+  background-color: #fc7d73;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.fc-3 {
+  background-color: #ac6dfd;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.fc-4 {
+  background-color: #37c4fa;
+  border-radius: 50%;
+}
+
+.fc-5 {
+  background-color: #03d491;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.fc-6 {
+  background-color: transparent;
+}
