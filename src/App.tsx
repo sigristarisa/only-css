@@ -15,10 +15,11 @@ import Panda from "./components/Panda/Panda";
 import Donut from "./components/Donut/Donut";
 import FigmaLogo from "./components/FigmaLogo/FigmaLogo";
 import ReactLogo from "./components/ReactLogo/ReactLogo";
+import Cosmopolitan from "./components/Cosmopolitan/Cosmopolitan";
 
 const App: React.FC = () => {
   return (
-    <div className='App'>
+    <div className="App">
       <Diamond />
       <Envelope />
       <Pepsi />
@@ -34,6 +35,7 @@ const App: React.FC = () => {
       <IGLogo />
       <Donut />
       <FigmaLogo />
+      <Cosmopolitan />
     </div>
   );
 };
